@@ -1,10 +1,10 @@
 #Dockerfile for React client
 
 #base image
-FROM node:14.15.3-alpine3.12
+FROM node:14.16-alpine
 
 #Working Directory
-WORKDIR /src/
+WORKDIR /usr/src/app
 
 COPY package.json ./
 
