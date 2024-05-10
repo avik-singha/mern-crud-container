@@ -3,6 +3,7 @@
 #base image
 FROM node:14.16-alpine
 
+RUN npm install -g nodemon
 #Working Directory
 WORKDIR /usr/src/app
 
